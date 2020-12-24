@@ -5,7 +5,7 @@ function SectionWrapper({ children, title }) {
     <div className="section">
       <div className="conainer-mt">
         <h2 className="ta-c mb-5">{title}</h2>
-        <div className="cards">{children}</div>
+        {children}
       </div>
     </div>
   );

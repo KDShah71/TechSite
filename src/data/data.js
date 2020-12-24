@@ -41,19 +41,19 @@ export const works = [
   {
     id: 2,
     url:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHjGCCSue7YKufhPWmsxBtJeF1JJKxMlkaew&usqp=CAU",
+      "https://graphicriver.img.customer.envatousercontent.com/files/301617118/preview.jpg?auto=compress%2Cformat&q=80&fit=crop&crop=top&max-h=8000&max-w=590&s=2764569e0b4ef8abb60b3b942f8ba7af",
     name: "E-Banking",
   },
   {
     id: 3,
     url:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPiYxhbhilMTRnqIRSW-et2V9wnOVjXLH4OQ&usqp=CAU",
+      "https://image.freepik.com/free-vector/sound-audio-gradient-wave-from-equalizer-cellphone-with-microphone-icon-screen-mobile-phone-app-digital-voice-radio-record-music-frequency-color-spectrum_284092-80.jpg",
     name: "E-Farming",
   },
   {
     id: 4,
     url:
-      "https://image.freepik.com/free-vector/online-movie-ticket-booking-concept_1302-11856.jpg",
+      "https://png.pngtree.com/png-vector/20190827/ourlarge/pngtree-popcorn-png-image_1700071.jpg",
     name: "Movie Tickets",
   },
   {
@@ -65,7 +65,7 @@ export const works = [
   {
     id: 6,
     url:
-      "https://c8.alamy.com/comp/2AP3MND/chillout-lounge-fm-radio-smartphone-interface-vector-template-mobile-music-player-app-page-black-layout-online-audio-playlist-track-album-listeni-2AP3MND.jpg",
+      "https://thumbs.dreamstime.com/b/online-streaming-mobile-podcast-app-interface-audioblog-recording-radio-program-vector-eps-200637978.jpg",
     name: "BTM FM",
   },
   {

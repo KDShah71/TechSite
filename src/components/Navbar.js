@@ -40,7 +40,9 @@ function Navbar() {
         </div>
       </nav>
       <div
-        className={`  ${showLinks ? "nav-links" : " nav-links hide-display"}  `}
+        className={`  ${
+          showLinks ? "toggle-menu" : " toggle-menu hide-display"
+        }  `}
       >
         <ul>
           <Link to="/" onClick={() => setShowLinks(false)}>

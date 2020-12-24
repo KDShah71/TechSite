@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import "./App.css";
 import "animate.css/animate.min.css";
@@ -12,6 +12,7 @@ function App() {
     <Router>
       <Navbar />
       <Route path="/" exact component={Home} />
+      <Route path="/TechSite" exact component={Home} />
       <Route path="/about" component={About} />
       <Route path="/contact" component={About} />
       <Footer />

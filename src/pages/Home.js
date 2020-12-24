@@ -12,23 +12,28 @@ function Home() {
       <Hero />
 
       <SectionWrapper title="Our Services">
-        {services.map((service) => {
-          console.log(service);
-          return <ServiceCard data={service} />;
-        })}
+        <div className="cards">
+          {" "}
+          {services.map((service) => {
+            console.log(service);
+            return <ServiceCard data={service} />;
+          })}
+        </div>
       </SectionWrapper>
 
       <SectionWrapper title="Our Works">
-        {works.map((work) => {
-          return <WorkCard data={work} />;
-        })}
+        <div className="workCard">
+          {works.map((work) => {
+            return <WorkCard data={work} />;
+          })}
+        </div>
       </SectionWrapper>
 
-      <SectionWrapper title="What they say about us">
+      {/* <SectionWrapper title="What they say about us">
         {works.map((work) => {
           return <WorkCard data={work} />;
         })}
-      </SectionWrapper>
+      </SectionWrapper> */}
     </div>
   );
 }

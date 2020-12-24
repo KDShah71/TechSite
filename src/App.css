@@ -122,11 +122,17 @@ p {
 /*  global classes */
 .btn {
   padding: 1em 2em;
-  font-size: 1rem;
+  border: none;
+  font-size: 1.2rem;
   font-weight: bolder;
   text-transform: uppercase;
   background-color: var(--clr-primary-5);
-  color: #fff;
+  color: var(--clr-white);
+  transition: var(--transition);
+  cursor: pointer;
+}
+.btn:hover {
+  transform: scale(1.1);
 }
 
 .flex {
@@ -193,6 +199,7 @@ nav {
 .nav-items {
   display: flex;
   align-items: center;
+  display: none;
 }
 
 .nav-items li {
@@ -205,9 +212,9 @@ nav {
   transition: var(--transition);
 }
 
-.nav-links {
+.toggle-menu {
   background-color: var(--clr-grey-1);
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -216,7 +223,7 @@ nav {
   transition: var(--transition);
 }
 
-.nav-links ul {
+.toggle-menu ul {
   margin-top: 100px;
 }
 
@@ -225,7 +232,7 @@ nav {
   transition: var(--transition);
 }
 
-.nav-links li {
+.toggle-menu li {
   color: var(--clr-white);
   font-size: 1.6rem;
   text-transform: capitalize;
@@ -235,30 +242,23 @@ nav {
   padding: 0.5rem 1rem;
   transition: var(--transition);
 }
-a:hover {
-  background: var(--clr-primary-8);
+.toggle-menu li:hover,
+.nav-items li:hover {
   color: var(--clr-primary-5);
-  font-size: 2rem;
-}
-.nav-items {
-  display: none;
+  transform: scale(1.3);
 }
 
 .nav-btn {
   font-size: 1.5rem;
-  color: var(--clr-primary-5);
+  color: var(--clr-white);
   background: transparent;
   border-color: transparent;
   transition: var(--transition);
   cursor: pointer;
 }
 .nav-btn:hover {
-  color: var(--clr-primary-1);
+  color: var(--clr-white);
   transform: rotate(90deg);
-}
-
-.nav .active {
-  color: tomato !important;
 }
 
 @media screen and (min-width: 800px) {
@@ -272,7 +272,7 @@ a:hover {
 
 /*
 =============== 
-Navbar
+Footer
 ===============
 */
 .footer {
@@ -329,7 +329,7 @@ Home- services
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, 25rem);
-  grid-template-rows: repeat(2, fr);
+  grid-template-rows: repeat(2, 1fr);
   justify-content: center;
   margin-top: 4em;
   grid-gap: 2em;
@@ -341,14 +341,36 @@ Home- services
   margin-bottom: 4em;
 }
 
+/*
+=============== 
+Footer-work
+===============
+*/
+
+.workCard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 2em;
+}
+
+@media (min-width: 800px) {
+  .workCard {
+    grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+  }
+}
+
+.workItems {
+  align-self: flex-start;
+}
 .workCard h3 {
   color: var(--clr-white);
 }
 
 .workImg {
-  width: 25rem;
-  height: 25rem;
-  object-fit: cover;
+  display: block;
+  max-width: 100%;
+  object-fit: fill;
   border-radius: 10px;
   transition: var(--transition);
   filter: brightness(0.7);
