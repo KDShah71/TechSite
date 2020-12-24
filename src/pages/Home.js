@@ -8,7 +8,7 @@ import { services, works } from "../data/data";
 
 function Home() {
   return (
-    <div className="section">
+    <div className="">
       <Hero />
 
       <SectionWrapper title="Our Services">

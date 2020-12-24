@@ -1,9 +1,17 @@
 import React from "react";
+import ScrollAnimation from "react-animate-on-scroll";
 
 function WorkCard({ data }) {
   const { id, url, name } = data;
   return (
-    <div key={id} className="workCard" style={{ paddingBottom: "4em" }}>
+    <ScrollAnimation
+      animateIn="animate__fadeInUp"
+      duration={1}
+      animateOnce={true}
+      key={id}
+      className="workCard"
+      style={{ paddingBottom: "4em" }}
+    >
       <div
         style={{
           position: "relative",
@@ -18,7 +26,7 @@ function WorkCard({ data }) {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
         officia.
       </p>
-    </div>
+    </ScrollAnimation>
   );
 }
 

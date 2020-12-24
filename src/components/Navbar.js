@@ -9,7 +9,9 @@ function Navbar() {
     <>
       <nav className="">
         <div className="nav-container section">
-          <div className="logo">LOGO</div>
+          <Link to="/" className="logo">
+            LOGO
+          </Link>
 
           <ul className="nav-items">
             <Link to="/" activeClass="active">

@@ -1,10 +1,19 @@
 import React from "react";
+import ScrollAnimation from "react-animate-on-scroll";
+
 import { AiOutlineBulb } from "react-icons/ai";
 
 function ServiceCard({ data }) {
   const { id, name } = data;
   return (
-    <div className="service-box " key={id}>
+    <ScrollAnimation
+      animateIn="animate__fadeInUp"
+      duration={1}
+      animateOnce={true}
+      // delay={100}
+      className="service-box "
+      key={id}
+    >
       <div className="ta-c">
         <h2>
           <AiOutlineBulb />
@@ -15,7 +24,7 @@ function ServiceCard({ data }) {
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, amet!
       </p>
-    </div>
+    </ScrollAnimation>
   );
 }
 
