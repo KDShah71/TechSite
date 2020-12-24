@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/TechSite/static/css/main.82fdb21d.chunk.css",
-    "main.js": "/TechSite/static/js/main.eed0d97d.chunk.js",
-    "main.js.map": "/TechSite/static/js/main.eed0d97d.chunk.js.map",
+    "main.css": "/TechSite/static/css/main.71547aa5.chunk.css",
+    "main.js": "/TechSite/static/js/main.dbe7a42c.chunk.js",
+    "main.js.map": "/TechSite/static/js/main.dbe7a42c.chunk.js.map",
     "runtime-main.js": "/TechSite/static/js/runtime-main.ca9c8792.js",
     "runtime-main.js.map": "/TechSite/static/js/runtime-main.ca9c8792.js.map",
     "static/css/2.cc77c331.chunk.css": "/TechSite/static/css/2.cc77c331.chunk.css",
@@ -12,14 +12,14 @@
     "static/js/3.bf2261c0.chunk.js.map": "/TechSite/static/js/3.bf2261c0.chunk.js.map",
     "index.html": "/TechSite/index.html",
     "static/css/2.cc77c331.chunk.css.map": "/TechSite/static/css/2.cc77c331.chunk.css.map",
-    "static/css/main.82fdb21d.chunk.css.map": "/TechSite/static/css/main.82fdb21d.chunk.css.map",
+    "static/css/main.71547aa5.chunk.css.map": "/TechSite/static/css/main.71547aa5.chunk.css.map",
     "static/js/2.39b2fd7f.chunk.js.LICENSE.txt": "/TechSite/static/js/2.39b2fd7f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.ca9c8792.js",
     "static/css/2.cc77c331.chunk.css",
     "static/js/2.39b2fd7f.chunk.js",
-    "static/css/main.82fdb21d.chunk.css",
-    "static/js/main.eed0d97d.chunk.js"
+    "static/css/main.71547aa5.chunk.css",
+    "static/js/main.dbe7a42c.chunk.js"
   ]
 }
